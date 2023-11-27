@@ -1,9 +1,9 @@
 {
             "openai_api_key": null,
-            "debug_mode": false,
+            "debug_mode": true,
             "allow_downloads": false,
             "selenium_web_browser": "chrome",
-            "search_api": "tavily",
+            "search_api": "googleAPI",
             "llm_provider": "ChatOpenAI",
             "fast_llm_model": "gpt-3.5-turbo-16k",
             "smart_llm_model": "gpt-4",
