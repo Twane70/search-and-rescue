@@ -22,11 +22,11 @@ async def create_chat_completion(
     Args:
         messages (list[dict[str, str]]): The messages to send to the chat completion
         model (str, optional): The model to use. Defaults to None.
-        temperature (float, optional): The temperature to use. Defaults to 0.9.
+        temperature (float, optional): The temperature to use. Defaults to 1.0.
         max_tokens (int, optional): The max tokens to use. Defaults to None.
         stream (bool, optional): Whether to stream the response. Defaults to False.
         llm_provider (str, optional): The LLM Provider to use.
-        webocket (WebSocket): The websocket used in the currect request
+        webocket (WebSocket): The websocket used in the current request
     Returns:
         str: The response from the chat completion
     """
